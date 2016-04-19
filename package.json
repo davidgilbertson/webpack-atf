@@ -1,0 +1,43 @@
+{
+  "name": "webpack-atf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node devServer.js",
+    "dev2": "./node_modules/.bin/webpack -d",
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.7.2",
+    "express": "^4.13.4",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "redux": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "extract-loader": "0.0.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}

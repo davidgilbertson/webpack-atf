@@ -1,0 +1,14 @@
+config.rb
+.idea/
+*.log
+Thumbs.db
+node_modules
+npm-debug.log
+*.orig
+test/coverage
+public/css
+public/js
+assetsHash.json
+private
+.env
+*.pfx
